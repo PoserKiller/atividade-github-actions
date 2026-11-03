@@ -1,8 +1,9 @@
 
 name: Treinamento GitHub Actions
-run-name: ${{ github.actor }} executando testes de CI 🚀
+run-name: "${{ github.actor }} executando testes de CI"
 
-on: [push]
+on:
+  push:
 
 jobs:
   Inspecionar-Ambiente:
